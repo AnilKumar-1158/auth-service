@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: auth-service
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/realmart
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
+server:
+  port: 8081
